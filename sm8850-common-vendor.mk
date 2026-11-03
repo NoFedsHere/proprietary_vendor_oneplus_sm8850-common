@@ -716,7 +716,6 @@ PRODUCT_PACKAGES += \
     libosenseaidlhalclient \
     libosensenativeproxy_client \
     libqcodec2_dolbydecoderfilter \
-    libsensorbridge \
     libstc_color_feature \
     com.google.android.widevine.nonupdatable \
     TimeService \
