@@ -100,7 +100,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8850-common/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
     vendor/oneplus/sm8850-common/proprietary/vendor/etc/init/qwesd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qwesd.rc \
     vendor/oneplus/sm8850-common/proprietary/vendor/etc/init/snapdragon_services.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/snapdragon_services.rc \
-    vendor/oneplus/sm8850-common/proprietary/vendor/etc/init/vendor.qti.MemHal-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.MemHal-service.rc \
     vendor/oneplus/sm8850-common/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
     vendor/oneplus/sm8850-common/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/oneplus/sm8850-common/proprietary/vendor/etc/init/vendor.qti.diag.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.diag.rc \
@@ -415,8 +414,6 @@ PRODUCT_PACKAGES += \
     libmcs \
     libmdmdetect \
     libmdsprpc \
-    libmemgen \
-    libmemhalutils \
     libmemutils \
     libminkdescriptor \
     libminkipcbinder_vendor \
@@ -439,10 +436,8 @@ PRODUCT_PACKAGES += \
     libpal_net_if \
     libpdmapper \
     libpdnotifier \
-    libperfconfig \
     libperipheral_client \
     libplatformconfig \
-    libq-perflog \
     libqasr \
     libqc2audio_base \
     libqc2audio_basecodec \
@@ -493,8 +488,6 @@ PRODUCT_PACKAGES += \
     libqsh_ble_pb \
     libqsocket \
     libqspm-mem-utils-vendor \
-    libqti-MemHal-client \
-    libqti-util \
     libqtigefar \
     libqtiidentitycredential \
     libqtikeymaster4 \
@@ -593,7 +586,6 @@ PRODUCT_PACKAGES += \
     libwfdutils_proprietary \
     qti.video.utils.videobufferlayout \
     sensors.qsh \
-    vendor.qti.MemHal-V1-ndk \
     vendor.qti.diaghal-V1-ndk_vendor \
     vendor.qti.hardware.ListenSoundModelAidl-V1-ndk \
     vendor.qti.hardware.ListenSoundModelAidl-V2-ndk \
@@ -730,7 +722,6 @@ PRODUCT_PACKAGES += \
     manifest_btaudiocoreservices_qti.xml \
     qasr_vintf.xml \
     snapdragon_services.xml \
-    vendor.qti.MemHal.xml \
     vendor.qti.diag.hal.service.xml \
     vendor.qti.hardware.alarm.xml \
     vendor.qti.hardware.bluetooth.btavsprovider.xml \
@@ -774,7 +765,6 @@ PRODUCT_PACKAGES += \
     android.hardware.security.onekeymint-service-qti \
     android.hardware.security.secretkeeper-service-qti \
     qconfigservice \
-    vendor.qti.MemHal-service \
     vendor.qti.hardware.alarm-service \
     vendor.qti.hardware.c2pa-aidl-service-qti \
     vendor.qti.hardware.capabilityconfigstore-service \
