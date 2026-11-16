@@ -111,7 +111,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8850-common/proprietary/vendor/etc/init/vendor.qti.hardware.display.color-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.color-service.rc \
     vendor/oneplus/sm8850-common/proprietary/vendor/etc/init/vendor.qti.hardware.dsp-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp-service.rc \
     vendor/oneplus/sm8850-common/proprietary/vendor/etc/init/vendor.qti.hardware.minkipcbinder@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.minkipcbinder@1.0-service.rc \
-    vendor/oneplus/sm8850-common/proprietary/vendor/etc/init/vendor.qti.hardware.perf2-hal-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf2-hal-service.rc \
     vendor/oneplus/sm8850-common/proprietary/vendor/etc/init/vendor.qti.hardware.secureprocessor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.secureprocessor.rc \
     vendor/oneplus/sm8850-common/proprietary/vendor/etc/init/vendor.qti.hardware.sensorscalibrate-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.sensorscalibrate-service.rc \
     vendor/oneplus/sm8850-common/proprietary/vendor/etc/init/vendor.qti.hardware.servicetrackeraidl-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.servicetrackeraidl-service.rc \
@@ -140,11 +139,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8850-common/proprietary/vendor/etc/models/mma/vad_enpu_off.bin:$(TARGET_COPY_OUT_VENDOR)/etc/models/mma/vad_enpu_off.bin \
     vendor/oneplus/sm8850-common/proprietary/vendor/etc/models/mma/vad_enpu_on.bin:$(TARGET_COPY_OUT_VENDOR)/etc/models/mma/vad_enpu_on.bin \
     vendor/oneplus/sm8850-common/proprietary/vendor/etc/oplus_Widevine_licenses.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/oplus_Widevine_licenses.pfm \
-    vendor/oneplus/sm8850-common/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
-    vendor/oneplus/sm8850-common/proprietary/vendor/etc/perf/commonsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonsysnodesconfigs.xml \
-    vendor/oneplus/sm8850-common/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
-    vendor/oneplus/sm8850-common/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
-    vendor/oneplus/sm8850-common/proprietary/vendor/etc/perf/targetsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetsysnodesconfigs.xml \
     vendor/oneplus/sm8850-common/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
     vendor/oneplus/sm8850-common/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/oneplus/sm8850-common/proprietary/vendor/etc/qlm_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qlm_config.xml \
@@ -445,9 +439,7 @@ PRODUCT_PACKAGES += \
     libpal_net_if \
     libpdmapper \
     libpdnotifier \
-    libperf-thermalprovider \
     libperfconfig \
-    libperfioctl \
     libperipheral_client \
     libplatformconfig \
     libq-perflog \
@@ -502,12 +494,6 @@ PRODUCT_PACKAGES += \
     libqsocket \
     libqspm-mem-utils-vendor \
     libqti-MemHal-client \
-    libqti-engine-loader \
-    libqti-perfd-client \
-    libqti-perfd \
-    libqti-s3tf \
-    libqti-scenariod \
-    libqti-sslite \
     libqti-util \
     libqtigefar \
     libqtiidentitycredential \
@@ -753,7 +739,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.dsp-service.xml \
     vendor.qti.hardware.hexlp-service.xml \
     vendor.qti.hardware.minkipcbinder-service.xml \
-    vendor.qti.hardware.perf2.xml \
     vendor.qti.hardware.qconfig-service.xml \
     vendor.qti.hardware.secureprocessor.xml \
     vendor.qti.hardware.sensorscalibrate.xml \
@@ -795,7 +780,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.capabilityconfigstore-service \
     vendor.qti.hardware.display.color-service \
     vendor.qti.hardware.minkipcbinder@1.0-service \
-    vendor.qti.hardware.perf2-hal-service \
     vendor.qti.hardware.secureprocessor \
     vendor.qti.hardware.sensorscalibrate-service \
     vendor.qti.hardware.servicetrackeraidl-service \
